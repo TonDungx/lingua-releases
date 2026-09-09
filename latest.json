@@ -1,18 +1,18 @@
 {
-  "latestVersion": "1.0.2",
-  "buildNumber": 3,
+  "latestVersion": "1.0.3",
+  "buildNumber": 4,
   "releaseDate": "2026-09-09",
   "mandatory": false,
   "sizeMb": 59.5,
-  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.0.2/Lingua-1.0.2-universal.apk",
+  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.0.3/Lingua-1.0.3-universal.apk",
   "notes": {
     "vi": [
-      "Ô luyện viết không còn tự cuộn khi kéo tay.",
-      "Bỏ gợi ý nét tự động — chỉ hiện khi bạn bấm."
+      "App tự báo khi có bản mới, không phải tự dán link nữa.",
+      "Ô luyện viết không tự cuộn; bỏ gợi ý nét tự động."
     ],
     "en": [
-      "Ô luyện viết không còn tự cuộn khi kéo tay.",
-      "Bỏ gợi ý nét tự động — chỉ hiện khi bạn bấm."
+      "App tự báo khi có bản mới, không phải tự dán link nữa.",
+      "Ô luyện viết không tự cuộn; bỏ gợi ý nét tự động."
     ]
   }
 }
