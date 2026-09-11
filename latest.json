@@ -1,24 +1,20 @@
 {
-  "latestVersion": "1.1.0",
-  "buildNumber": 7,
+  "latestVersion": "1.2.0",
+  "buildNumber": 8,
   "releaseDate": "2026-09-11",
   "mandatory": false,
-  "sizeMb": 60.8,
-  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.1.0/Lingua-1.1.0-universal.apk",
+  "sizeMb": 61.1,
+  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.2.0/Lingua-1.2.0-universal.apk",
   "notes": {
     "vi": [
-      "Luyện viết tự do: viết xong mới chấm, không bắt thứ tự nét",
-      "Thêm khoá tiếng Trung phồn thể (TOCFL 1–7); giản thể và phồn thể là hai khoá riêng",
-      "Sửa lỗi đổi khoá học không có phản ứng, phải mở lại app",
-      "Sửa lỗi đổi tên/ảnh đại diện chưa hiện ngay",
-      "Có thêm bản Windows và bản web cho iPhone/iPad (xem trang release)"
+      "Chuyển tài khoản sang máy khác: xuất/nhập tệp sao lưu (Cài đặt → Sao lưu & chuyển máy, hoặc ngay ở màn đăng nhập)",
+      "Nút loa hiện thông báo và cách cài khi máy thiếu giọng đọc",
+      "Sửa phát âm trên Windows"
     ],
     "en": [
-      "Luyện viết tự do: viết xong mới chấm, không bắt thứ tự nét",
-      "Thêm khoá tiếng Trung phồn thể (TOCFL 1–7); giản thể và phồn thể là hai khoá riêng",
-      "Sửa lỗi đổi khoá học không có phản ứng, phải mở lại app",
-      "Sửa lỗi đổi tên/ảnh đại diện chưa hiện ngay",
-      "Có thêm bản Windows và bản web cho iPhone/iPad (xem trang release)"
+      "Chuyển tài khoản sang máy khác: xuất/nhập tệp sao lưu (Cài đặt → Sao lưu & chuyển máy, hoặc ngay ở màn đăng nhập)",
+      "Nút loa hiện thông báo và cách cài khi máy thiếu giọng đọc",
+      "Sửa phát âm trên Windows"
     ]
   }
 }
