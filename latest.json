@@ -1,20 +1,20 @@
 {
-  "latestVersion": "1.2.0",
-  "buildNumber": 9,
+  "latestVersion": "1.2.1",
+  "buildNumber": 10,
   "releaseDate": "2026-09-11",
   "mandatory": false,
   "sizeMb": 61.1,
-  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.2.0/Lingua-1.2.0-universal.apk",
+  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.2.1/Lingua-1.2.1-universal.apk",
   "notes": {
     "vi": [
-      "Chuyển tài khoản sang máy khác: xuất/nhập tệp sao lưu (Cài đặt → Sao lưu & chuyển máy, hoặc ngay ở màn đăng nhập)",
-      "Nút loa hiện thông báo và cách cài khi máy thiếu giọng đọc",
-      "Cài đè được từ bản tách theo CPU, hết lỗi gói không hợp lệ"
+      "Sửa lỗi nội dung đè lên thanh trạng thái trên điện thoại",
+      "Chuyển tài khoản sang máy khác qua tệp sao lưu (Cài đặt → Sao lưu & chuyển máy)",
+      "Nút loa báo rõ khi máy thiếu giọng đọc"
     ],
     "en": [
-      "Chuyển tài khoản sang máy khác: xuất/nhập tệp sao lưu (Cài đặt → Sao lưu & chuyển máy, hoặc ngay ở màn đăng nhập)",
-      "Nút loa hiện thông báo và cách cài khi máy thiếu giọng đọc",
-      "Cài đè được từ bản tách theo CPU, hết lỗi gói không hợp lệ"
+      "Sửa lỗi nội dung đè lên thanh trạng thái trên điện thoại",
+      "Chuyển tài khoản sang máy khác qua tệp sao lưu (Cài đặt → Sao lưu & chuyển máy)",
+      "Nút loa báo rõ khi máy thiếu giọng đọc"
     ]
   }
 }
