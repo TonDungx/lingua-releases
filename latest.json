@@ -1,20 +1,18 @@
 {
-  "latestVersion": "1.2.1",
-  "buildNumber": 10,
+  "latestVersion": "1.3.0",
+  "buildNumber": 11,
   "releaseDate": "2026-09-11",
   "mandatory": false,
-  "sizeMb": 61.1,
-  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.2.1/Lingua-1.2.1-universal.apk",
+  "sizeMb": 61.6,
+  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.3.0/Lingua-1.3.0-universal.apk",
   "notes": {
     "vi": [
-      "Sửa lỗi nội dung đè lên thanh trạng thái trên điện thoại",
-      "Chuyển tài khoản sang máy khác qua tệp sao lưu (Cài đặt → Sao lưu & chuyển máy)",
-      "Nút loa báo rõ khi máy thiếu giọng đọc"
+      "Icon mới trên mọi nền tảng và ảnh giới thiệu mới",
+      "Sao lưu / chuyển máy qua tệp, thông báo khi thiếu giọng đọc, không đè lên thanh trạng thái"
     ],
     "en": [
-      "Sửa lỗi nội dung đè lên thanh trạng thái trên điện thoại",
-      "Chuyển tài khoản sang máy khác qua tệp sao lưu (Cài đặt → Sao lưu & chuyển máy)",
-      "Nút loa báo rõ khi máy thiếu giọng đọc"
+      "Icon mới trên mọi nền tảng và ảnh giới thiệu mới",
+      "Sao lưu / chuyển máy qua tệp, thông báo khi thiếu giọng đọc, không đè lên thanh trạng thái"
     ]
   }
 }
