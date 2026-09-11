@@ -1,6 +1,6 @@
 {
   "latestVersion": "1.2.0",
-  "buildNumber": 8,
+  "buildNumber": 9,
   "releaseDate": "2026-09-11",
   "mandatory": false,
   "sizeMb": 61.1,
@@ -9,12 +9,12 @@
     "vi": [
       "Chuyển tài khoản sang máy khác: xuất/nhập tệp sao lưu (Cài đặt → Sao lưu & chuyển máy, hoặc ngay ở màn đăng nhập)",
       "Nút loa hiện thông báo và cách cài khi máy thiếu giọng đọc",
-      "Sửa phát âm trên Windows"
+      "Cài đè được từ bản tách theo CPU, hết lỗi gói không hợp lệ"
     ],
     "en": [
       "Chuyển tài khoản sang máy khác: xuất/nhập tệp sao lưu (Cài đặt → Sao lưu & chuyển máy, hoặc ngay ở màn đăng nhập)",
       "Nút loa hiện thông báo và cách cài khi máy thiếu giọng đọc",
-      "Sửa phát âm trên Windows"
+      "Cài đè được từ bản tách theo CPU, hết lỗi gói không hợp lệ"
     ]
   }
 }
