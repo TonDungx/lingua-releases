@@ -1,18 +1,22 @@
 {
-  "latestVersion": "1.0.3",
-  "buildNumber": 4,
-  "releaseDate": "2026-09-09",
+  "latestVersion": "1.1.0",
+  "buildNumber": 6,
+  "releaseDate": "2026-09-11",
   "mandatory": false,
-  "sizeMb": 59.5,
-  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.0.3/Lingua-1.0.3-universal.apk",
+  "sizeMb": 60.8,
+  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.1.0/Lingua-1.1.0-universal.apk",
   "notes": {
     "vi": [
-      "App tự báo khi có bản mới, không phải tự dán link nữa.",
-      "Ô luyện viết không tự cuộn; bỏ gợi ý nét tự động."
+      "Luyện viết tự do: viết xong mới chấm, không bắt thứ tự nét",
+      "Thêm khoá tiếng Trung phồn thể (TOCFL 1–7); giản thể và phồn thể là hai khoá riêng",
+      "Sửa lỗi đổi khoá học không có phản ứng, phải mở lại app",
+      "Sửa lỗi đổi tên/ảnh đại diện chưa hiện ngay"
     ],
     "en": [
-      "App tự báo khi có bản mới, không phải tự dán link nữa.",
-      "Ô luyện viết không tự cuộn; bỏ gợi ý nét tự động."
+      "Luyện viết tự do: viết xong mới chấm, không bắt thứ tự nét",
+      "Thêm khoá tiếng Trung phồn thể (TOCFL 1–7); giản thể và phồn thể là hai khoá riêng",
+      "Sửa lỗi đổi khoá học không có phản ứng, phải mở lại app",
+      "Sửa lỗi đổi tên/ảnh đại diện chưa hiện ngay"
     ]
   }
 }
