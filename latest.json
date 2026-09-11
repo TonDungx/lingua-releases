@@ -1,6 +1,6 @@
 {
   "latestVersion": "1.1.0",
-  "buildNumber": 6,
+  "buildNumber": 7,
   "releaseDate": "2026-09-11",
   "mandatory": false,
   "sizeMb": 60.8,
@@ -10,13 +10,15 @@
       "Luyện viết tự do: viết xong mới chấm, không bắt thứ tự nét",
       "Thêm khoá tiếng Trung phồn thể (TOCFL 1–7); giản thể và phồn thể là hai khoá riêng",
       "Sửa lỗi đổi khoá học không có phản ứng, phải mở lại app",
-      "Sửa lỗi đổi tên/ảnh đại diện chưa hiện ngay"
+      "Sửa lỗi đổi tên/ảnh đại diện chưa hiện ngay",
+      "Có thêm bản Windows và bản web cho iPhone/iPad (xem trang release)"
     ],
     "en": [
       "Luyện viết tự do: viết xong mới chấm, không bắt thứ tự nét",
       "Thêm khoá tiếng Trung phồn thể (TOCFL 1–7); giản thể và phồn thể là hai khoá riêng",
       "Sửa lỗi đổi khoá học không có phản ứng, phải mở lại app",
-      "Sửa lỗi đổi tên/ảnh đại diện chưa hiện ngay"
+      "Sửa lỗi đổi tên/ảnh đại diện chưa hiện ngay",
+      "Có thêm bản Windows và bản web cho iPhone/iPad (xem trang release)"
     ]
   }
 }
