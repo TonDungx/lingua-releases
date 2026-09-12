@@ -1,18 +1,18 @@
 {
-  "latestVersion": "1.4.0",
-  "buildNumber": 12,
+  "latestVersion": "1.5.0",
+  "buildNumber": 13,
   "releaseDate": "2026-09-12",
   "mandatory": false,
-  "sizeMb": 61.8,
-  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.4.0/Lingua-1.4.0-universal.apk",
+  "sizeMb": 61.9,
+  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.5.0/Lingua-1.5.0-universal.apk",
   "notes": {
     "vi": [
-      "Bài kiểm tra cho từng bài học: trắc nghiệm, nghe, flashcard xen kẽ; đạt 80% là bài hoàn thành",
-      "Hiệu ứng mượt hơn; sửa lỗi câu sai bị hỏi lại mãi"
+      "Nút 简/繁 đổi giản thể ↔ phồn thể ở mọi màn học, kể cả giọng đọc và ô luyện viết",
+      "Từ đã học và Lịch sử học; sửa lỗi học xong không có dấu tích ở bài"
     ],
     "en": [
-      "Bài kiểm tra cho từng bài học: trắc nghiệm, nghe, flashcard xen kẽ; đạt 80% là bài hoàn thành",
-      "Hiệu ứng mượt hơn; sửa lỗi câu sai bị hỏi lại mãi"
+      "Nút 简/繁 đổi giản thể ↔ phồn thể ở mọi màn học, kể cả giọng đọc và ô luyện viết",
+      "Từ đã học và Lịch sử học; sửa lỗi học xong không có dấu tích ở bài"
     ]
   }
 }
