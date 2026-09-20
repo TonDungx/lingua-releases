@@ -1,18 +1,16 @@
 {
-  "latestVersion": "1.5.0",
-  "buildNumber": 13,
-  "releaseDate": "2026-09-12",
+  "latestVersion": "1.7.0",
+  "buildNumber": 15,
+  "releaseDate": "2026-09-20",
   "mandatory": false,
-  "sizeMb": 61.9,
-  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.5.0/Lingua-1.5.0-universal.apk",
+  "sizeMb": 64,
+  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.7.0/Lingua-1.7.0-universal.apk",
   "notes": {
     "vi": [
-      "Nút 简/繁 đổi giản thể ↔ phồn thể ở mọi màn học, kể cả giọng đọc và ô luyện viết",
-      "Từ đã học và Lịch sử học; sửa lỗi học xong không có dấu tích ở bài"
+      "Đồng bộ tiến độ giữa các máy (tuỳ chọn, mất mạng vẫn học được) · giao diện học vẽ lại: nút nổi khối, linh vật báo đúng/sai, bố cục hai cột trên màn rộng · lịch ôn chuyển sang FSRS nên ngày đến hạn sẽ xê dịch."
     ],
     "en": [
-      "Nút 简/繁 đổi giản thể ↔ phồn thể ở mọi màn học, kể cả giọng đọc và ô luyện viết",
-      "Từ đã học và Lịch sử học; sửa lỗi học xong không có dấu tích ở bài"
+      "Đồng bộ tiến độ giữa các máy (tuỳ chọn, mất mạng vẫn học được) · giao diện học vẽ lại: nút nổi khối, linh vật báo đúng/sai, bố cục hai cột trên màn rộng · lịch ôn chuyển sang FSRS nên ngày đến hạn sẽ xê dịch."
     ]
   }
 }
