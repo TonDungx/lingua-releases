@@ -1,16 +1,18 @@
 {
-  "latestVersion": "1.7.0",
-  "buildNumber": 15,
+  "latestVersion": "1.8.0",
+  "buildNumber": 16,
   "releaseDate": "2026-09-20",
   "mandatory": false,
-  "sizeMb": 64,
-  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.7.0/Lingua-1.7.0-universal.apk",
+  "sizeMb": 67.5,
+  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.8.0/Lingua-1.8.0-universal.apk",
   "notes": {
     "vi": [
-      "Đồng bộ tiến độ giữa các máy (tuỳ chọn, mất mạng vẫn học được) · giao diện học vẽ lại: nút nổi khối, linh vật báo đúng/sai, bố cục hai cột trên màn rộng · lịch ôn chuyển sang FSRS nên ngày đến hạn sẽ xê dịch."
+      "Ảnh đại diện là ảnh thật (chụp hoặc chọn từ máy), tên và ảnh đi theo tài khoản khi bật đồng bộ · màn luyện viết chỉ còn một nút và \"Xem mẫu\" bấm được ngay · phát âm nhanh hơn.",
+      "CHÚ Ý: cách chuyển máy bằng TỆP SAO LƯU đã bị gỡ — từ bản này chỉ chuyển máy qua đồng bộ đám mây. Còn tệp .json chưa nhập thì nhập bằng 1.7.0 trước khi cài đè."
     ],
     "en": [
-      "Đồng bộ tiến độ giữa các máy (tuỳ chọn, mất mạng vẫn học được) · giao diện học vẽ lại: nút nổi khối, linh vật báo đúng/sai, bố cục hai cột trên màn rộng · lịch ôn chuyển sang FSRS nên ngày đến hạn sẽ xê dịch."
+      "Ảnh đại diện là ảnh thật (chụp hoặc chọn từ máy), tên và ảnh đi theo tài khoản khi bật đồng bộ · màn luyện viết chỉ còn một nút và \"Xem mẫu\" bấm được ngay · phát âm nhanh hơn.",
+      "CHÚ Ý: cách chuyển máy bằng TỆP SAO LƯU đã bị gỡ — từ bản này chỉ chuyển máy qua đồng bộ đám mây. Còn tệp .json chưa nhập thì nhập bằng 1.7.0 trước khi cài đè."
     ]
   }
 }
