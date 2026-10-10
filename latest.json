@@ -1,18 +1,18 @@
 {
-  "latestVersion": "1.8.0",
-  "buildNumber": 16,
-  "releaseDate": "2026-09-20",
+  "latestVersion": "2.0.0",
+  "buildNumber": 17,
+  "releaseDate": "2026-10-10",
   "mandatory": false,
-  "sizeMb": 67.5,
-  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v1.8.0/Lingua-1.8.0-universal.apk",
+  "sizeMb": 64.3,
+  "downloadUrl": "https://github.com/TonDungx/lingua-releases/releases/download/v2.0.0/Lingua-2.0.0-universal.apk",
   "notes": {
     "vi": [
-      "Ảnh đại diện là ảnh thật (chụp hoặc chọn từ máy), tên và ảnh đi theo tài khoản khi bật đồng bộ · màn luyện viết chỉ còn một nút và \"Xem mẫu\" bấm được ngay · phát âm nhanh hơn.",
-      "CHÚ Ý: cách chuyển máy bằng TỆP SAO LƯU đã bị gỡ — từ bản này chỉ chuyển máy qua đồng bộ đám mây. Còn tệp .json chưa nhập thì nhập bằng 1.7.0 trước khi cài đè."
+      "Giao diện làm lại từ đầu: 5 mục rõ ràng (Hôm nay · Học · Ôn luyện · Tiến độ · Tài khoản), một bộ icon thống nhất thay cho emoji, chữ dễ đọc hơn.",
+      "Trên máy tính: thanh điều hướng trên cùng, bố cục nhiều cột, phím tắt (bấm ? để xem). Tiến độ và tài khoản giữ nguyên khi nâng cấp."
     ],
     "en": [
-      "Ảnh đại diện là ảnh thật (chụp hoặc chọn từ máy), tên và ảnh đi theo tài khoản khi bật đồng bộ · màn luyện viết chỉ còn một nút và \"Xem mẫu\" bấm được ngay · phát âm nhanh hơn.",
-      "CHÚ Ý: cách chuyển máy bằng TỆP SAO LƯU đã bị gỡ — từ bản này chỉ chuyển máy qua đồng bộ đám mây. Còn tệp .json chưa nhập thì nhập bằng 1.7.0 trước khi cài đè."
+      "Giao diện làm lại từ đầu: 5 mục rõ ràng (Hôm nay · Học · Ôn luyện · Tiến độ · Tài khoản), một bộ icon thống nhất thay cho emoji, chữ dễ đọc hơn.",
+      "Trên máy tính: thanh điều hướng trên cùng, bố cục nhiều cột, phím tắt (bấm ? để xem). Tiến độ và tài khoản giữ nguyên khi nâng cấp."
     ]
   }
 }
