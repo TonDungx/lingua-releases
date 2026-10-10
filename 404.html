@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lingua</title>
+  <script>
+    // GitHub Pages serves this file for every path it has no file for. The app
+    // uses real paths (/app/learn/path), so a reload or a shared link to one of
+    // them ends up here: hand it to the app as ?__p=, and web/index.html puts
+    // the path back before Flutter starts.
+    (function () {
+      var l = location, i = l.pathname.indexOf('/app/');
+      if (i >= 0) {
+        var base = l.pathname.slice(0, i + 5);
+        l.replace(base + '?__p=' + encodeURIComponent(
+          l.pathname.slice(i + 5) + l.search + l.hash));
+      }
+    })();
+  </script>
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center;
+      font: 16px/1.5 "Segoe UI", Roboto, sans-serif; background: #F6F6FB; color: #1E1E2D; }
+    a { color: #5B4BD1; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <p>Không tìm thấy trang này. <a href="/lingua-releases/">Về trang chủ Lingua</a></p>
+</body>
+</html>

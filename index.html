@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lingua — Học tiếng Trung và tiếng Anh, học được cả khi mất mạng</title>
+<meta name="description" content="Lingua dạy HSK, TOCFL và CEFR trên một lộ trình kỹ năng biết bạn nên học gì tiếp theo. 16.895 từ, luyện viết chữ Hán theo nét, lịch ôn FSRS — học được cả khi mất mạng, tiến độ đồng bộ lại khi có mạng.">
+<meta name="author" content="Lingua">
+<meta name="theme-color" content="#6C5CE7">
+<link rel="canonical" href="https://tondungx.github.io/lingua-releases/">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:title" content="Lingua — Học tiếng Trung và tiếng Anh, học được cả khi mất mạng">
+<meta property="og:description" content="Một lộ trình kỹ năng biết bạn nên học gì tiếp theo. HSK · TOCFL · CEFR. Chạy offline, tiến độ đồng bộ khi có mạng.">
+<meta property="og:url" content="https://tondungx.github.io/lingua-releases/">
+<meta property="og:image" content="https://tondungx.github.io/lingua-releases/thumbnail.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Ma+Shan+Zheng&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Bỏ qua, tới nội dung chính</a>
+
+<header class="nav" id="nav">
+  <div class="wrap nav__inner">
+    <a class="brand" href="#top" aria-label="Lingua, về đầu trang">
+      <img class="brand__mark" src="icon.png" alt="" width="34" height="34">
+      <span class="brand__name">Lingua</span>
+    </a>
+
+    <nav class="nav__links" id="nav-links" aria-label="Mục lục trang">
+      <a href="#co-che">Cách hoạt động</a>
+      <a href="#tinh-nang">Tính năng</a>
+      <a href="#doi-tuong">Ai nên dùng</a>
+      <a href="#minh-bach">Minh bạch</a>
+      <a href="#faq">Hỏi đáp</a>
+    </nav>
+
+    <div class="nav__actions">
+      <a class="btn btn--primary btn--sm" href="app/" data-track="nav_cta">Mở ứng dụng</a>
+      <button class="nav__burger" id="nav-burger" aria-label="Mở mục lục" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ───────────────────────────── hero ───────────────────────────── -->
+<section class="hero" id="top">
+  <canvas class="hero__wave" id="hero-wave" aria-hidden="true"></canvas>
+  <div class="hero__glow" aria-hidden="true"></div>
+  <span class="hero__hanzi hero__hanzi--a" aria-hidden="true">语</span>
+  <span class="hero__hanzi hero__hanzi--b" aria-hidden="true">学</span>
+
+  <div class="wrap hero__inner">
+    <div class="hero__copy">
+      <p class="eyebrow" data-reveal>Một lộ trình, ba khoá học</p>
+      <h1 class="hero__title" data-reveal>
+        Lingua biết bạn nên học <em>gì tiếp theo</em>.
+      </h1>
+      <p class="hero__lead" data-reveal>
+        Không phải một danh sách bài dài vô tận để bạn tự chọn. Lingua dựng một
+        đồ thị kỹ năng có điều kiện tiên quyết, rồi mỗi ngày chọn đúng phần cần
+        <strong>Học mới</strong>, <strong>Củng cố</strong> hay <strong>Ôn lại</strong> —
+        và luôn nói cho bạn biết vì sao.
+      </p>
+
+      <div class="hero__cta" data-reveal>
+        <a class="btn btn--primary btn--lg" href="app/" data-track="hero_open">
+          Học thử ngay trên trình duyệt
+        </a>
+        <a class="btn btn--ghost btn--lg" href="#co-che" data-track="hero_how">
+          Xem cách hoạt động
+        </a>
+      </div>
+
+      <ul class="hero__chips" data-reveal>
+        <li><span class="dot"></span> Mất mạng vẫn học được</li>
+        <li><span class="dot"></span> Tiến độ đồng bộ giữa các máy</li>
+        <li><span class="dot"></span> Miễn phí, không quảng cáo</li>
+      </ul>
+    </div>
+
+    <!-- Mock của màn Lộ trình thật trong app. Số liệu khớp với dữ liệu ship kèm. -->
+    <div class="hero__device" data-reveal aria-hidden="true">
+      <div class="device">
+        <div class="device__bar">
+          <span>Lộ trình kỹ năng</span>
+          <span class="pill">0/44</span>
+        </div>
+        <div class="device__body">
+          <article class="mission">
+            <header class="mission__head">
+              <span class="mission__label">BUỔI HÔM NAY</span>
+              <span class="mission__time">Khoảng 15 phút</span>
+            </header>
+
+            <div class="mrow">
+              <span class="mrow__icon mrow__icon--repair">🔧</span>
+              <div>
+                <p class="mrow__kind mrow__kind--repair">CỦNG CỐ</p>
+                <p class="mrow__name">Khung câu chủ – vị – tân</p>
+                <p class="mrow__why">Đang cản «Phủ định 不 và 没». Củng cố trước để đi tiếp.</p>
+              </div>
+              <span class="mrow__min">8p</span>
+            </div>
+
+            <div class="mrow">
+              <span class="mrow__icon mrow__icon--new">✦</span>
+              <div>
+                <p class="mrow__kind mrow__kind--new">MỚI</p>
+                <p class="mrow__name">Ghép vần pinyin</p>
+                <p class="mrow__why">Đã đủ điều kiện để mở kiến thức mới.</p>
+              </div>
+              <span class="mrow__min">8p</span>
+            </div>
+
+            <div class="mission__btn">Bắt đầu buổi học</div>
+          </article>
+
+          <div class="skillrow"><span class="skillrow__i skillrow__i--ok">✓</span> Ghép vần pinyin</div>
+          <div class="skillrow skillrow--locked"><span class="skillrow__i">🔒</span> Phân biệt bốn thanh <em>Cần: Ghép vần pinyin</em></div>
+          <div class="skillrow skillrow--locked"><span class="skillrow__i">🔒</span> Đại từ nhân xưng <em>Cần: Ghép vần pinyin</em></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap hero__stats" data-reveal>
+    <div><b>16.895</b><span>từ vựng có sẵn</span></div>
+    <div><b>44</b><span>kỹ năng nối nhau</span></div>
+    <div><b>3.224</b><span>chữ Hán có dữ liệu nét</span></div>
+    <div><b>0</b><span>đồng phí sử dụng</span></div>
+  </div>
+</section>
+
+<!-- ───────────────────────────── vấn đề ───────────────────────────── -->
+<section class="section section--problem" id="van-de">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal>Vì sao học mãi mà không lên</p>
+    <h2 class="h2" data-reveal>Học nhiều chưa chắc là học đúng thứ mình đang thiếu.</h2>
+    <p class="lead" data-reveal>
+      Phần lớn ứng dụng đưa bạn một danh sách và để bạn tự chọn. Ba chỗ hỏng
+      nằm ngay ở đó.
+    </p>
+
+    <div class="grid grid--3">
+      <article class="card" data-reveal>
+        <span class="card__num">01</span>
+        <h3>Không biết mình yếu ở đâu</h3>
+        <p>Làm xong một bài chỉ nhận lại một con số phần trăm. Nó không nói được
+          rằng bạn hỏng ở trật tự câu chứ không phải ở từ vựng.</p>
+      </article>
+      <article class="card" data-reveal>
+        <span class="card__num">02</span>
+        <h3>Học lan man</h3>
+        <p>Mở bài nào cũng được, nên thời gian bị chia đều cho thứ đã vững và
+          thứ chưa vững. Phần chưa vững vẫn nằm nguyên đó.</p>
+      </article>
+      <article class="card" data-reveal>
+        <span class="card__num">03</span>
+        <h3>Không biết khi nào nên ôn lại</h3>
+        <p>Ôn quá sớm thì phí, ôn quá muộn thì phải học lại từ đầu. Trí nhớ có
+          quy luật, và một danh sách phẳng thì không biết quy luật đó.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────────── cơ chế ───────────────────────────── -->
+<section class="section section--mechanism" id="co-che">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal>Cơ chế</p>
+    <h2 class="h2" data-reveal>Lingua chọn bước tiếp theo cho bạn như thế nào?</h2>
+    <p class="lead" data-reveal>
+      Không có một lộ trình cố định cho tất cả mọi người. Mỗi kết quả bạn làm ra
+      đều có thể làm buổi học ngày mai khác đi.
+    </p>
+
+    <ol class="stages">
+      <li class="stage" data-reveal>
+        <span class="stage__n">1</span>
+        <h3>Ghi nhận kết quả thật</h3>
+        <p>Mỗi buổi học là một <em>checkpoint</em>. Lingua đếm số câu đúng trên
+          tổng số câu của đúng kỹ năng đó, không suy diễn từ điểm tổng.</p>
+      </li>
+      <li class="stage" data-reveal>
+        <span class="stage__n">2</span>
+        <h3>Cập nhật từng kỹ năng</h3>
+        <p>Mỗi kỹ năng đi qua bốn mức: <b>chưa đủ thông tin → cần củng cố → đã
+          đạt → thành thạo</b>. Cần ít nhất 3 câu mới đổi mức, và mức cao nhất
+          luôn cần hai lần đạt.</p>
+      </li>
+      <li class="stage" data-reveal>
+        <span class="stage__n">3</span>
+        <h3>Chọn bước tiếp theo</h3>
+        <p>Thứ đang <em>chặn</em> thứ khác được ưu tiên trước, rồi tới thứ đến
+          hạn ôn, rồi mới tới kiến thức mới.</p>
+      </li>
+    </ol>
+
+    <div class="grid grid--3 roles">
+      <article class="role role--new" data-reveal>
+        <span class="role__tag">MỚI</span>
+        <h3>Mở kiến thức tiếp theo</h3>
+        <p>Khi mọi điều kiện tiên quyết đã đủ vững, Lingua mở nút kế tiếp trên
+          đồ thị.</p>
+        <p class="role__eg">Ví dụ: mở <b>Phủ định 不 / 没</b> sau khi khung câu
+          chủ–vị–tân đã đạt.</p>
+      </article>
+      <article class="role role--repair" data-reveal>
+        <span class="role__tag">CỦNG CỐ</span>
+        <h3>Xử lý chỗ đang chặn</h3>
+        <p>Một kỹ năng yếu mà có thứ khác đang chờ nó thì được đưa lên đầu buổi
+          học — và app nói rõ nó đang chặn cái gì.</p>
+        <p class="role__eg">Ví dụ: <b>Trật tự câu</b> yếu thì cả cấp độ đó tạm
+          dừng mở bài mới.</p>
+      </article>
+      <article class="role role--review" data-reveal>
+        <span class="role__tag">ÔN LẠI</span>
+        <h3>Gọi lại đúng lúc</h3>
+        <p>Kỹ năng đã đạt được lên lịch quay lại theo chu kỳ giãn dần, và luyện
+          một kỹ năng sẽ làm chậm quên cho cả nhóm cùng loại.</p>
+        <p class="role__eg">Ví dụ: ôn ba mẫu câu ngữ pháp cũng làm mới cảm giác
+          về trật tự nói chung.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────── minh chứng thích ứng ───────────────────────── -->
+<section class="section section--proof" id="lo-trinh">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal>Minh bạch</p>
+    <h2 class="h2" data-reveal>Bạn luôn thấy vì sao lộ trình đổi.</h2>
+    <p class="lead" data-reveal>
+      Một lộ trình không giải thích được thì cảm giác như bị áp đặt. Mỗi mục
+      trong buổi học đều kèm một câu lý do lấy thẳng từ dữ liệu.
+    </p>
+
+    <div class="grid grid--2 proof">
+      <article class="proofcard proofcard--bad" data-reveal>
+        <header><b>Trật tự câu cơ bản</b><span class="tag tag--warn">Cần củng cố</span></header>
+        <p class="proofcard__line">Checkpoint gần nhất: <b>2/5 câu đạt</b></p>
+        <p class="proofcard__arrow">↓</p>
+        <p class="proofcard__out">Buổi sau: <b>Củng cố</b>, đặt lên đầu</p>
+        <blockquote>“Kỹ năng này đang cản «Ngữ pháp cơ bản». Củng cố trước sẽ
+          giúp bạn tiếp tục lộ trình.”</blockquote>
+      </article>
+
+      <article class="proofcard proofcard--good" data-reveal>
+        <header><b>Phân biệt bốn thanh</b><span class="tag tag--ok">Đã đạt</span></header>
+        <p class="proofcard__line">Checkpoint gần nhất: <b>5/5 câu đạt</b></p>
+        <p class="proofcard__arrow">↓</p>
+        <p class="proofcard__out">Buổi sau: <b>mở bài mới</b> + hẹn lịch ôn</p>
+        <blockquote>“Đã đủ điều kiện để mở kiến thức mới.”</blockquote>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────────── tính năng ───────────────────────────── -->
+<section class="section section--features" id="tinh-nang">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal>Tính năng</p>
+    <h2 class="h2" data-reveal>Mọi thứ bạn cần, nằm gọn trong máy bạn.</h2>
+
+    <div class="tabs" data-reveal>
+      <div class="tabs__bar" role="tablist" aria-label="Nhóm tính năng">
+        <button class="tab is-active" role="tab" aria-selected="true"  data-tab="vocab">Từ vựng</button>
+        <button class="tab"           role="tab" aria-selected="false" data-tab="write">Luyện viết</button>
+        <button class="tab"           role="tab" aria-selected="false" data-tab="path">Lộ trình</button>
+        <button class="tab"           role="tab" aria-selected="false" data-tab="offline">Ngoại tuyến</button>
+      </div>
+
+      <div class="panel is-active" data-panel="vocab" role="tabpanel">
+        <div class="panel__copy">
+          <h3>16.895 từ, ôn theo lịch của trí nhớ</h3>
+          <p>Ba khoá dùng chung một engine ôn tập: HSK 5.363 từ, TOCFL 6.662 từ,
+            CEFR 4.870 từ. Lịch ôn chạy bằng <b>FSRS</b> — nó tách riêng
+            “từ này khó với tôi” và “tôi trả lời muộn”, nên một từ nhớ được sau
+            hai tháng quá hạn được giãn xa hơn hẳn một từ trả lời đúng hạn.</p>
+          <ul class="ticks">
+            <li>Thẻ lật tự chấm, nghe chọn từ, gõ lại, sắp xếp câu</li>
+            <li>Nút 简/繁 đổi giản ↔ phồn cho cả app, gõ kiểu nào cũng nhận</li>
+            <li>Tra cứu theo chữ, pinyin không dấu, Hán Việt hay nghĩa</li>
+          </ul>
+        </div>
+        <div class="panel__art">
+          <div class="wordcard">
+            <span class="wordcard__hz">经验</span>
+            <span class="wordcard__py">jīng yàn</span>
+            <span class="wordcard__vi">kinh nghiệm</span>
+            <div class="wordcard__grades"><i>Chưa nhớ</i><i>Khó</i><i class="on">Được</i><i>Dễ</i></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" data-panel="write" role="tabpanel">
+        <div class="panel__copy">
+          <h3>Viết tay từng nét, chấm sau khi viết xong</h3>
+          <p>Ô viết để trống và <b>không bắt thứ tự nét</b> — bạn cứ viết ra như
+            trên giấy. Bấm chấm điểm thì Lingua ghép theo hình dáng nét, thiếu
+            nét hay thừa nét đều bị trừ. Dữ liệu nét lấy từ Make Me a Hanzi,
+            phủ 3.224 chữ.</p>
+          <ul class="ticks">
+            <li>Xem mẫu và xem hướng dẫn viết ngay trong thẻ</li>
+            <li>Lật thẻ không mất nét đang viết dở</li>
+            <li>Điểm viết đi thẳng vào lịch ôn của từ đó</li>
+          </ul>
+        </div>
+        <div class="panel__art">
+          <div class="writebox"><span>好</span><em>6 nét</em></div>
+        </div>
+      </div>
+
+      <div class="panel" data-panel="path" role="tabpanel">
+        <div class="panel__copy">
+          <h3>Đồ thị kỹ năng, không phải danh sách bài</h3>
+          <p>44 kỹ năng nối nhau bằng 60 quan hệ tiên quyết, xếp theo thứ tự
+            tô-pô nên không bao giờ có chuyện mở một bài mà nền của nó chưa
+            xong. Kỹ năng đang khoá vẫn hiện, kèm đúng tên thứ đang chặn nó.</p>
+          <ul class="ticks">
+            <li>Bốn mức: chưa đủ thông tin · cần củng cố · đã đạt · thành thạo</li>
+            <li>Kỹ năng nền yếu thì cả cấp độ tạm dừng mở bài mới</li>
+            <li>Hai khoá tiếng Trung tính tiến độ riêng</li>
+          </ul>
+        </div>
+        <div class="panel__art">
+          <div class="graphart">
+            <span class="node node--done">✓</span>
+            <span class="edge"></span>
+            <span class="node node--now">◉</span>
+            <span class="edge edge--dim"></span>
+            <span class="node node--lock">🔒</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" data-panel="offline" role="tabpanel">
+        <div class="panel__copy">
+          <h3>Học offline, đồng bộ khi có mạng</h3>
+          <p>Từ điển, dữ liệu nét và toàn bộ tiến độ nằm sẵn trong máy bạn, nên
+            app mở được và học được kể cả khi không có sóng. Có mạng thì tiến độ
+            tự đồng bộ để máy khác học tiếp đúng chỗ đang dở.</p>
+          <ul class="ticks">
+            <li>Android, Windows và trình duyệt — cùng một engine</li>
+            <li>Mật khẩu băm bằng PBKDF2 ngay trên máy</li>
+            <li>Bản web cài được như ứng dụng (PWA)</li>
+          </ul>
+        </div>
+        <div class="panel__art">
+          <div class="offart">
+            <span>📱</span><span>💻</span><span>🌐</span>
+            <em>một tài khoản, mọi máy cùng chỗ</em>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────────── đối tượng ───────────────────────────── -->
+<section class="section section--personas" id="doi-tuong">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal>Ai nên dùng</p>
+    <h2 class="h2" data-reveal>Lingua hợp với ba kiểu người học.</h2>
+
+    <div class="grid grid--3">
+      <article class="persona" data-reveal>
+        <span class="persona__emoji">🌱</span>
+        <h3>Mới bắt đầu</h3>
+        <p>Chưa biết pinyin, chưa phân biệt được thanh điệu. Lingua bắt đầu từ
+          đúng chỗ đó và không mở gì cao hơn cho tới khi nền đủ chắc.</p>
+      </article>
+      <article class="persona" data-reveal>
+        <span class="persona__emoji">🎯</span>
+        <h3>Đang luyện thi HSK / TOCFL</h3>
+        <p>Đã học được một thời gian nhưng không chắc mình hổng chỗ nào. Đồ thị
+          kỹ năng chỉ thẳng ra phần đang cản bạn.</p>
+      </article>
+      <article class="persona" data-reveal>
+        <span class="persona__emoji">✈️</span>
+        <h3>Học lúc không có mạng</h3>
+        <p>Trên máy bay, trên tàu, ở chỗ sóng yếu. App không cần mạng để chạy,
+          và cũng không âm thầm gửi gì đi.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────────── minh bạch ───────────────────────────── -->
+<section class="section section--honest" id="minh-bach">
+  <div class="wrap">
+    <p class="eyebrow" data-reveal>Nói thẳng</p>
+    <h2 class="h2" data-reveal>Lingua làm được gì, và chưa làm được gì.</h2>
+    <p class="lead" data-reveal>
+      Trang này không có lời chứng thực của người dùng, vì Lingua chưa có đủ
+      người dùng để lấy. Thay vào đó là danh sách thật.
+    </p>
+
+    <div class="grid grid--2 honest">
+      <article class="honest__col honest__col--yes" data-reveal>
+        <h3>Có</h3>
+        <ul>
+          <li>Ba khoá: HSK, TOCFL, CEFR — tiến độ tách riêng</li>
+          <li>Lộ trình kỹ năng có tiên quyết, giải thích được từng lựa chọn</li>
+          <li>Lịch ôn FSRS, luyện viết chữ Hán theo nét</li>
+          <li>Chạy ngoại tuyến trên Android, Windows và trình duyệt</li>
+          <li>Đồng bộ tiến độ giữa các máy, gộp theo từng dòng nên không máy
+            nào mất buổi học</li>
+        </ul>
+      </article>
+      <article class="honest__col honest__col--no" data-reveal>
+        <h3>Chưa có</h3>
+        <ul>
+          <li><b>Không chấm phát âm</b> — app không nghe bạn nói</li>
+          <li>Lộ trình kỹ năng mới phủ HSK 1–3, tiếng Anh chưa có</li>
+          <li>Nghĩa tiếng Việt mới có cho 360 từ nền tảng, còn lại là tiếng Anh</li>
+          <li>Chưa có câu ví dụ tiếng Trung trong dữ liệu</li>
+          <li>Bản iPhone chưa được dựng; dùng bản web thay thế</li>
+          <li><b>Đồng bộ không mang theo thao tác xoá</b> — bỏ yêu thích một từ
+            trên máy này thì máy kia vẫn giữ</li>
+          <li>Một ngày học trên hai máy cùng lúc được tính theo số cao hơn,
+            không cộng dồn</li>
+          <li><b>Chuyển máy phải qua tài khoản đám mây</b> — không còn tệp sao
+            lưu, nên bản dựng không cấu hình máy chủ thì tiến độ ở lại máy đó</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────────── hỏi đáp ───────────────────────────── -->
+<section class="section section--faq" id="faq">
+  <div class="wrap wrap--narrow">
+    <p class="eyebrow" data-reveal>Hỏi đáp</p>
+    <h2 class="h2" data-reveal>Những câu hay được hỏi</h2>
+
+    <div class="faq" data-reveal>
+      <details>
+        <summary>Có phải trả tiền không?</summary>
+        <p>Không. Không có gói trả phí, không có quảng cáo, không có mục nào bị
+          khoá.</p>
+      </details>
+      <details>
+        <summary>Dữ liệu học của tôi nằm ở đâu?</summary>
+        <p>Trong máy bạn trước đã — trên Android và Windows là một tệp sqlite,
+          trên trình duyệt là IndexedDB. App đọc ghi ở đó, nên mất mạng vẫn
+          chạy đủ. Nếu bạn đăng nhập, <b>tiến độ</b> (từ đã học, lịch ôn, chuỗi
+          ngày, huy hiệu) còn được gửi lên máy chủ để máy khác học tiếp. Nội
+          dung bài học không gửi đi đâu cả — nó vốn nằm sẵn trong app. Ngắt
+          đồng bộ trong Cài đặt là dừng hẳn việc gửi.</p>
+      </details>
+      <details>
+        <summary>Quên mật khẩu thì sao?</summary>
+        <p>Nếu đã đăng nhập đám mây thì đặt lại qua email như mọi dịch vụ khác.
+          Còn với tài khoản chỉ nằm trên máy (tạo lúc không có mạng), chỉ cần
+          đúng email đã đăng ký là đặt lại được, kèm câu hỏi bảo mật nếu bạn có
+          đặt — máy không có cách nào gửi mail cho bạn, và ai mở được máy bạn
+          thì đã ở trong máy bạn rồi.</p>
+      </details>
+      <details>
+        <summary>Lingua có chấm phát âm của tôi không?</summary>
+        <p>Không. App phát âm mẫu bằng giọng đọc của hệ điều hành, nhưng không
+          nghe và không chấm bạn nói. Nếu máy chưa cài giọng tiếng Trung thì nút
+          loa sẽ báo thiếu gì và cách cài.</p>
+      </details>
+      <details>
+        <summary>Tôi đang dùng trên điện thoại, chuyển sang máy tính được không?</summary>
+        <p>Được, bằng tài khoản: đăng nhập cùng email trên máy mới, tiến độ
+          hai bên được gộp theo từng dòng nên không máy nào mất buổi học. Không
+          còn cách chuyển máy bằng tệp — bản dựng nào không cấu hình máy chủ
+          thì tiến độ ở lại đúng máy đó.</p>
+      </details>
+      <details>
+        <summary>Lộ trình kỹ năng có cho tiếng Anh không?</summary>
+        <p>Chưa. Hiện mới có cho hai khoá tiếng Trung, phủ HSK 1–3. Khoá tiếng
+          Anh vẫn học theo cấp độ và bài như bình thường.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ───────────────────────────── CTA ───────────────────────────── -->
+<section class="section section--cta">
+  <div class="wrap cta" data-reveal>
+    <h2>Mở app và làm buổi học đầu tiên trong 15 phút.</h2>
+    <p>Không cần cài gì, không cần thẻ, không cần mạng sau lần tải đầu.</p>
+    <div class="cta__row">
+      <a class="btn btn--light btn--lg" href="app/" data-track="cta_open">Học thử trên trình duyệt</a>
+      <a class="btn btn--outline btn--lg" href="https://github.com/TonDungx/lingua-releases/releases/latest" data-track="cta_download">Tải bản Android / Windows</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <div>
+      <a class="brand brand--foot" href="#top">
+        <img class="brand__mark" src="icon.png" alt="" width="28" height="28">
+        <span class="brand__name">Lingua</span>
+      </a>
+      <p class="foot__note">Học tiếng Trung và tiếng Anh, học được cả khi mất mạng.</p>
+    </div>
+    <nav class="foot__links" aria-label="Liên kết cuối trang">
+      <a href="app/">Mở ứng dụng</a>
+      <a href="https://github.com/TonDungx/lingua-releases/releases/latest">Tải về</a>
+      <a href="#minh-bach">Giới hạn đã biết</a>
+      <a href="#faq">Hỏi đáp</a>
+    </nav>
+  </div>
+  <div class="wrap foot__legal">
+    <p>Dữ liệu từ vựng và nét chữ lấy từ các nguồn mở: Make Me a Hanzi,
+      CC-CEDICT, complete-hsk-vocabulary, tocfl-word-list, Wordset, OpenCC.
+      Giấy phép của từng nguồn được ghi trong app.</p>
+  </div>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
